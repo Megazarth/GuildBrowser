@@ -408,12 +408,18 @@
 			attributes = {
 				LastUpgradeCheck = 0450;
 				ORGANIZATIONNAME = "Charlie Fulton";
+				TargetAttributes = {
+					CB9FDC3A15E9872D00B3713E = {
+						DevelopmentTeam = Z79624379P;
+					};
+				};
 			};
 			buildConfigurationList = CB9FDC3515E9872D00B3713E /* Build configuration list for PBXProject "GuildBrowser" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = CB9FDC3015E9872D00B3713E;
@@ -612,9 +618,11 @@
 		CB9FDC6F15E9872E00B3713E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				DEVELOPMENT_TEAM = Z79624379P;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GuildBrowser/GuildBrowser-Prefix.pch";
 				INFOPLIST_FILE = "GuildBrowser/GuildBrowser-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -623,9 +631,11 @@
 		CB9FDC7015E9872E00B3713E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				DEVELOPMENT_TEAM = Z79624379P;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GuildBrowser/GuildBrowser-Prefix.pch";
 				INFOPLIST_FILE = "GuildBrowser/GuildBrowser-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
